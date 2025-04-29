@@ -1,4 +1,17 @@
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.caixa-botoes {
+    position: relative;
+    overflow: hidden;
+   
+}
+
+    body {
     margin: 0;
     background: #ccee66;
     color: white;
@@ -37,6 +50,7 @@ body::before {
     width: 80px;
     position: relative;
     z-index: 1;
+    
 }
 
 h4 {
